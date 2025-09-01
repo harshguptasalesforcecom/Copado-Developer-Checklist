@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fill_Dev_Checklist_before_deployment</fullName>
+    <active>true</active>
+    <description>Enforce the developers, to fill the Developer Checklist, if it&apos;s enable for them</description>
+    <errorConditionFormula>(copado__Promote_Change__c ||  copado__Promote_and_Deploy__c )
+	
+&amp;&amp;
+
+ $Permission.Enable_Developer_Checklist 
+	
+	&amp;&amp;
+	
+Developer_Checklist_Count__c  == 0</errorConditionFormula>
+    <errorMessage>Please fill the developer checklist, before proceed for deployment.</errorMessage>
+</ValidationRule>

@@ -6,11 +6,16 @@
 		<members>Developer_Checklist__c.Developer_Comments__c</members>
 		<members>Developer_Checklist__c.Governanace_Item__c</members>
 		<members>Developer_Checklist__c.User_Story__c</members>
+		<members>copado__User_Story__c.Developer_Checklist_Count__c</members>
 		<name>CustomField</name>
 	</types>
 	<types>
 		<members>Developer_Checklist__c</members>
 		<name>CustomObject</name>
+	</types>
+	<types>
+		<members>Enable_Developer_Checklist</members>
+		<name>CustomPermission</name>
 	</types>
 	<types>
 		<members>User_Story_Record_Page1</members>
@@ -22,6 +27,7 @@
 	</types>
 	<types>
 		<members>Developer_New</members>
+		<members>SF_Copado_Developer_Checklist</members>
 		<name>PermissionSet</name>
 	</types>
 	<types>
@@ -32,6 +38,10 @@
 		<members>unfiled$public/User_Story_Metadata_SRy</members>
 		<members>unfiled$public/User_Story_Metadata_Summary_LSZ</members>
 		<name>Report</name>
+	</types>
+	<types>
+		<members>copado__User_Story__c.Fill_Dev_Checklist_before_deployment</members>
+		<name>ValidationRule</name>
 	</types>
 	<version>64.0</version>
 </Package>
