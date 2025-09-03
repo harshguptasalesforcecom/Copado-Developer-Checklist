@@ -11,6 +11,6 @@
 	
 	&amp;&amp;
 	
-Developer_Checklist_Count__c  == 0</errorConditionFormula>
+Developer_Checklist_Count__c  == 0  &amp;&amp; PRIORVALUE(Developer_Checklist_Count__c) == 0</errorConditionFormula>
     <errorMessage>Please fill the developer checklist, before proceed for deployment.</errorMessage>
 </ValidationRule>
