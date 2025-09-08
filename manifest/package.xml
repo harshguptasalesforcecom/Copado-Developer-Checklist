@@ -31,6 +31,10 @@
 		<name>PermissionSet</name>
 	</types>
 	<types>
+		<members>copado__User_Story__c.DeveloperChecklist</members>
+		<name>QuickAction</name>
+	</types>
+	<types>
 		<members>unfiled$public/Copado_Development_Steps_hwW</members>
 		<members>unfiled$public/New_User_Story_with_Metadata_Report_WHW</members>
 		<members>unfiled$public/User_Story_Developer_Checklist_4Ck</members>
@@ -38,6 +42,13 @@
 		<members>unfiled$public/User_Story_Metadata_SRy</members>
 		<members>unfiled$public/User_Story_Metadata_Summary_LSZ</members>
 		<name>Report</name>
+	</types>
+	<types>
+		<members>User_Stories_with_Deployment_Task_and_Step</members>
+		<members>User_Story_Developer_Checklist</members>
+		<members>User_Story_Metadata</members>
+		<members>User_Story_with_Metadata</members>
+		<name>ReportType</name>
 	</types>
 	<types>
 		<members>copado__User_Story__c.Fill_Dev_Checklist_before_deployment</members>
